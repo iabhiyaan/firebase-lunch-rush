@@ -1,0 +1,17 @@
+.CurrentUser {
+	border: 1px solid #ccc;
+	display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.CurrentUser--identification {
+	padding: 1em;
+	flex: 1;
+}
+
+.CurrentUser--photo {
+	max-height: 150px;
+	border-radius: 50%;
+}
