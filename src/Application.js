@@ -49,7 +49,7 @@ class Application extends Component {
 			cUser = (
 				<div>
 					<NewRestaurant />
-					<Restaurants restaurants={restaurants} />
+					<Restaurants restaurants={restaurants} user={currentUser} />
 
 					{/* ----😎 Using library 😎--- */}
 					{/* {map(restaurants, (restaurant, key) => <p key={key}> {restaurant.name} </p>)} */}
