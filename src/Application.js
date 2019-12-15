@@ -37,9 +37,7 @@ class Application extends Component {
 			} else {
 				this.setState({
 					loading: false,
-					currentUser: null
 				});
-				console.log("Current User is null");
 			}
 		});
 	}
