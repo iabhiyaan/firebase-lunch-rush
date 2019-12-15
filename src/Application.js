@@ -51,18 +51,6 @@ class Application extends Component {
 				<div>
 					<NewRestaurant />
 					<Restaurants restaurants={restaurants} user={currentUser} />
-
-					{/* ----😎 Using library 😎--- */}
-					{/* {map(restaurants, (restaurant, key) => <p key={key}> {restaurant.name} </p>)} */}
-					{/* 😎😎 Using keys long and confusing but useful though 😀😀  */}
-
-					{/* {restaurants &&
-						Object.keys(restaurants).map((restaurant, key) => (
-							<p key={key}>
-								<span className="font-weight-bold">{restaurants[restaurant].name}</span> is great place ho
-								hangout
-							</p>
-						))} */}
 					<CurrentUser user={currentUser} />
 				</div>
 			);
