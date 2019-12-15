@@ -35,7 +35,7 @@ class NewRestaurant extends Component {
 					onChange={(event) => this.setState({ name: event.target.value })}
 				/>
 				<button onClick={this.handleSubmit} disabled={!name}>
-					Submit
+					Add Restaurant
 				</button>
 			</form>
 		);
